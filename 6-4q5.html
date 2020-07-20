@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>day 6-4 assignment5</title>
+		
+	</head>
+	<body>
+		<script>
+			let sales=400;
+			let salesmade=+prompt("how many sales did u done in the year?");
+			if(salesmade>0&&salesmade<=5000){
+				let total=sales*salesmade*0.02;
+				console.log("your total income for this year",total);
+			}
+			else if(salesmade>5000&&salesmade<=10000){
+				let total=sales*salesmade*0.05;
+				console.log("your total income for this year",total);
+			}
+			else if(salesmade>=10001&&salesmade<=20000){
+				let total=sales*salesmade*0.02;
+				console.log("your total income for this year",total);
+			}
+			
+			if(salesmade>20000){
+				let total=sales*salesmade*0.02;
+				console.log("your total income for this year",total);
+			}
+		</script>
+	</body>
+</html>
